@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14dd3951-23f3-43b2-8e38-a9580742f631" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/.flake8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/.github/ISSUE_TEMPLATE/feature-extraction-question.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/CHANGES.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/CONTRIBUTING.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/bin/DatasetHierarchyReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/bin/GenerateInputCSV_Datasethierarchy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/bin/GenerateInputCSV_Filename.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/bin/resampleMask.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/bin/testParams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/conda/bld.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/conda/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/conda/configure_conda.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/conda/configure_conda.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/conda/meta.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/baseline_firstorder.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/baseline_glcm.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/baseline_gldm.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/baseline_glrlm.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/baseline_glszm.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/baseline_ngtdm.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/baseline_shape.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/baseline_shape2D.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/brain1_glcm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/brain1_gldm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/brain1_glrlm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/brain1_glszm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/brain1_ngtdm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/brain2_glcm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/brain2_gldm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/brain2_glrlm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/brain2_glszm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/brain2_ngtdm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/breast1_glcm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/breast1_gldm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/breast1_glrlm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/breast1_glszm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/breast1_ngtdm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/lung1_glcm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/lung1_gldm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/lung1_glrlm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/lung1_glszm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/lung1_ngtdm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/lung2_glcm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/lung2_gldm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/lung2_glrlm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/lung2_glszm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/lung2_ngtdm.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/baseline/wavelet.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/brain1_image.nrrd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/data/brain1_label.nrrd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docker/cli/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/.buildinfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/.doctrees/_apidoc/conf.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/.doctrees/_apidoc/features.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/.doctrees/_apidoc/modules.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/.doctrees/_apidoc/radiomics.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/.doctrees/_apidoc/setup.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/.doctrees/_apidoc/tests.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/.doctrees/docs/index.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/.doctrees/index.doctree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/changes.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/contributing.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/customization.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/developers.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/faq.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/features.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/images/docker-windows.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/installation.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/labs.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/make.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/radiomics.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/removedfeatures.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/docs/usage.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/batchProcessingWithPandas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/batchprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/batchprocessing_parallel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/exampleSettings/MR_2D_extraction.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/exampleSettings/Params.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/exampleSettings/exampleCT.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/exampleSettings/exampleMR_3mm.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/exampleSettings/exampleMR_5mm.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/exampleSettings/exampleMR_NoResampling.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/exampleSettings/exampleVoxel.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/exampleSettings/example_allShape.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/helloFeatureClass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/helloRadiomics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/helloRadiomicsWithSettings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/helloResampling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/helloVoxel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/examples/testCases.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/hooks/build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/labs/pyradiomics-dcm/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/labs/pyradiomics-dcm/Pyradiomics_Params.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/labs/pyradiomics-dcm/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/labs/pyradiomics-dcm/pyradiomics-dcm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/labs/pyradiomics-dcm/resources/cp1764_04_moreimagefeatures.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/labs/pyradiomics-dcm/resources/featuresDict_IBSIv7.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/labs/pyradiomics-dcm/resources/ibsi_concepts.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/labs/pyradiomics-reproduce/notebooks/USF_repeats.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/notebooks/.ipynb_checkpoints/PyRadiomicsExample-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/notebooks/.ipynb_checkpoints/helloRadiomics-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/notebooks/FeatureVisualization.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/notebooks/FeatureVisualizationWithClustering.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/notebooks/FilteringEffects.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/notebooks/PyRadiomicsExample.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/notebooks/RadiomicsExample.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/notebooks/helloFeatureClass.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/notebooks/helloRadiomics.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/notebooks/testLog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/.ipynb_checkpoints/Hello_ORAW-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/.ipynb_checkpoints/Hello_ORAW_xnat-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/DicomDatabase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/Hello_ORAW.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/Hello_ORAW_xnat.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/O-RAW_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/ORAW.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/ParamsSettings/ORAW_UniversalTemplate.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/ParamsSettings/Pyradiomics_Params.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/Pyrex2RDF.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/PyrexReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/PyrexWithParams.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/PyrexXNAT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/RadiomicsOntology/ORAW_RO_Table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/RadiomicsOntology/RadiomicsOntologyTable.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/batch_conv_nrrd_xnat-1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.100419011574350084474670023150393223682.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.103128037605340162361997090947490851703.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.107507140562933053497484049241171031101.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.112536311975969590211164294468585711839.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.113011868844445180657297507112428684025.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.113916667931356108055875174091608888107.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.114941050546265189814311602280061313486.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.117077996021066875094223210697710695552.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.118013447991411537387081839813092719107.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.121962347121595360317509244897583906195.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.122645425927801426963809330754360383686.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.123401134355037790187520931485806091165.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.125032870060818786746049452378674671271.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.131431145341339469569674148543028089272.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.131776597237736608712987900906529570041.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.135123946764938205862006623424136148543.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.140221204778341866655290899728202242960.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.141003206486435100435062203358151430183.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.146690518896939717990238286069631301037.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.147501104392204586872321808977184575321.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.152971438802248666709625491295647277934.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.15472669542728422665353241498103546515.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.156278608530624933299219368174875954119.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.169254355933087662872490501845797306477.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.170726372513580109154581061851514666374.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.177788227842754216475547326177129495834.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.178764525041000341193165679025862024610.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.188558983763300162517631204074988725134.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.190366830580718744084569251001454116750.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.191627270902145816987022042353010504188.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.195738040629867634864761325855435128699.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.204893136127239504752018568902047563021.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.205283684721169290918654684476359005088.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.214681124564717894768799284458918900954.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.217627958779830073744638695564888541259.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.223009095412869956660779979381532420864.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.224031842237125596616281258918367908645.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.225433422051657815594715046898741380726.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.226854543675599549585062103169375621806.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.228578819446178294863554467143989081029.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.230236954832347398052995506955586658648.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.231509687955581110207957444910846669693.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.23379734522446569008573741317971321397.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.238254837570319109640461133648117073697.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.239379363607423854243278241582245078357.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.245029242513293241015810125223650634904.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.246094018793207439048339910989956441071.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.247459144554873335938935136373255518859.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.249632254886149269173660680600272944433.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.249940827782761599891183850080528227814.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.253649501265668788022147610832355435935.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.254749863660671538562505896117602978194.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.258462822559429226698313067408685071349.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.260051446521504748096955764398986041110.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.261123061968409521600398154794600149292.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.272791199493867040304054191775258422892.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.278848925377209218851820719326157332529.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.280627918285615898655484560613145195155.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.281349201634544924037667450905110999877.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.28852590264731456215235686046397076461.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.291227191644345827680484811205681590804.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.292371309680677267734167445293184807644.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.297780402264327912462540642449539626154.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.298218502691919199137670979213568848571.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.300132454629291859271242030167303322803.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.303014671303098063456037560215616633232.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.304774971035498614242249169521362583036.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.30744183676930019562370763684877874196.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.310143981258913119600113266105533151469.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.310628096189403179977370889007298713661.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.315294539902631879889346180460585829008.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.315862515423169291438787508726893507155.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.315939481060810507512995494768054959056.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.317931330631775018510454734595148068433.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.317956212073808868147995765448506378872.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.319735320328992524732417258631895682920.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.321751183161474155839511586248537213184.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.32570180912014940162636718365591332158.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.32832574592731852327827201665972128349.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.335431391127252846617575213152381070448.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.336332754427270062935541963531528600037.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.336580342258541253059102310825723484797.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.3709056246036022433076647270460226174.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.38027915239586315836271941040895490540.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.39321727415144065084665301155329053981.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.43108099179428481549066009622163662673.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.43847246821705765081389105085266362473.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.44158000327004737048550345781579759452.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.48612151191141568481732651861003220834.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.50029186407502469710349791619587926168.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.55200858346785209780711460803879620325.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.57848821621766766908325254346185319387.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.59245436449562538643156979816864150542.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.62682580554923297541860001650188117734.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.63602713150470268020287594612236393041.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.66528853744339722099701283935632844759.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.66841160128895231127987754890741999568.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.72113146420931285438786034545052598846.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.73721758724563317093777344934984363906.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.78074135912607625949392505134797264361.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.79951668442046306279444539903942261581.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.80889725949695854436846418882386448960.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.81754986208634369730587893891559557729.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.85555755502883933229713344803786562662.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.86571273707471361596899504467195162678.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.9066258590986665508084066715725863133.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.91175044652800894252519405923197365708.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.91438947670936568118942692870289483412.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.94819050216170160776063477385354385754.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.97434819343852105975874582008238034631.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/DICOM/CT.1.3.6.1.4.1.40744.29.98152739140962959628587623504779667168.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/oraw-demo-CT/RTSTRUCT/RTSTRUCT.1.3.6.1.4.1.40744.29.58200769026013337550235117523425780982.dcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/data/xnat_import/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/download_nrrd_xnat-1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/download_pyradiomics-1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/o-raw/upload_dicom_bundles_into_xnat.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/featureextractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/firstorder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/generalinfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/glcm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/gldm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/glrlm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/glszm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/imageoperations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/ngtdm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/schemas/paramSchema.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/schemas/schemaFuncs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/scripts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/scripts/segment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/scripts/voxel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/shape.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/shape2D.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/src/_cmatrices.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/src/_cshape.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/src/cmatrices.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/src/cmatrices.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/src/cshape.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/radiomics/src/cshape.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/requirements-dev.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/requirements-setup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/scikit-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/tests/addTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/tests/add_baseline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/tests/testUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/tests/test_docstrings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/tests/test_exampleSettings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/tests/test_features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/tests/test_matrices.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/tests/test_wavelet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyradiomics-master/versioneer.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KuKWbeo5a19m2c5bCyNS1jIvfQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="data_descriptor_main" type="PythonConfigurationType" factoryName="Python">
+      <module name="tomcat_Flyover" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_processing/data_descriptor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_processing/data_descriptor/data_descriptor_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14dd3951-23f3-43b2-8e38-a9580742f631" name="Changes" comment="" />
+      <created>1674819062950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674819062950</updated>
+      <workItem from="1674819070070" duration="20000" />
+      <workItem from="1674819147611" duration="2000" />
+    </task>
+    <servers />
+  </component>
+</project>

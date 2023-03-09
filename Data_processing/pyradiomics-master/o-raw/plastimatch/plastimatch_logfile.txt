@@ -1,0 +1,318 @@
+Loading RDD
+Loading RDD complete
+Found RTSTUCT, UID=1.3.6.1.4.1.40744.29.93349004447475329138539991688243353187
+Found DCM_ReferencedFrameOfReferenceSequence!
+Found DCM_RTReferencedStudySequence!
+Trying to load rt structure set.
+Adding structure (25), Spinal-Cord
+Adding structure (26), Neck-Right
+Adding structure (27), Neck-Left
+Adding structure (28), Submandibular-Gland-Right
+Adding structure (29), Submandibular-Gland-Left
+Adding structure (30), Parotid-Right
+Adding structure (31), Parotid-Left
+Adding structure (32), Oral-Cavity
+Adding structure (33), Medulla-Oblongata
+Adding structure (34), Brain
+Adding structure (35), GTV-2
+Adding structure (36), GTV-1
+Structure 25 has color 115\230\0
+Structure 26 has color 230\115\230
+Structure 27 has color 0\230\115
+Structure 28 has color 172\115\0
+Structure 29 has color 230\0\230
+Structure 30 has color 184\57\57
+Structure 31 has color 138\172\230
+Structure 32 has color 172\172\0
+Structure 33 has color 172\0\172
+Structure 34 has color 0\207\207
+Structure 35 has color 230\0\0
+Structure 36 has color 0\230\0
+Setting PIH from RDD
+PIH is:
+Origin = -249.5117 -475.5117 -754.0000
+Size = 512 512 147
+Spacing = 0.9766 0.9766 3.0000
+Direction = 1.0000 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000 0.0000 1.0000
+Rt_study_warp: Convert ss_img to cxt.
+Rt_study_warp: Prune empty structures.
+Rt_study_warp: Apply dicom_dir.
+Rt_study_warp: Set geometry from PIH.
+Rt_study_warp: Set rasterization geometry.
+rast_dim = 512 512 109
+rast_offset = -90.0345 -304.669 -655
+rast_spacing = 0.383455 0.383455 3
+Rt_study_warp: warp and save ss.
+Warp_and_save_ss: seg->rasterize
+Rasterizing...
+Converting...
+Finished rasterization.
+Warp_and_save_ss: save_ss_img
+save_ss_img: save_prefix
+Trying to write image to ./NrrdFolder/Spinal-Cord.nrrd
+Trying to write image to ./NrrdFolder/Neck-Right.nrrd
+Trying to write image to ./NrrdFolder/Neck-Left.nrrd
+Trying to write image to ./NrrdFolder/Submandibular-Gland-Right.nrrd
+Trying to write image to ./NrrdFolder/Submandibular-Gland-Left.nrrd
+Trying to write image to ./NrrdFolder/Parotid-Right.nrrd
+Trying to write image to ./NrrdFolder/Parotid-Left.nrrd
+Trying to write image to ./NrrdFolder/Oral-Cavity.nrrd
+Trying to write image to ./NrrdFolder/Medulla-Oblongata.nrrd
+Trying to write image to ./NrrdFolder/Brain.nrrd
+Trying to write image to ./NrrdFolder/GTV-2.nrrd
+Trying to write image to ./NrrdFolder/GTV-1.nrrd
+Finished!
+Subject: HN1004
+Datetime stamp : 28/01/2022 13:17:50
+Setting PIH from RDD
+PIH is:
+Origin = -249.5117 -475.5117 -754.0000
+Size = 512 512 147
+Spacing = 0.9766 0.9766 3.0000
+Direction = 1.0000 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000 0.0000 1.0000
+Rt_study_warp: Saving m_img (./NrrdFolder/ct_image.nrrd)
+Trying to write image to ./NrrdFolder/ct_image.nrrd
+Rt_study_warp: warp and save ss.
+Finished!
+Subject: HN1004
+Datetime stamp : 28/01/2022 13:17:50
+Loading RDD
+Loading RDD complete
+Found RTSTUCT, UID=1.3.6.1.4.1.40744.29.93349004447475329138539991688243353187
+Found DCM_ReferencedFrameOfReferenceSequence!
+Found DCM_RTReferencedStudySequence!
+Trying to load rt structure set.
+Adding structure (25), Spinal-Cord
+Adding structure (26), Neck-Right
+Adding structure (27), Neck-Left
+Adding structure (28), Submandibular-Gland-Right
+Adding structure (29), Submandibular-Gland-Left
+Adding structure (30), Parotid-Right
+Adding structure (31), Parotid-Left
+Adding structure (32), Oral-Cavity
+Adding structure (33), Medulla-Oblongata
+Adding structure (34), Brain
+Adding structure (35), GTV-2
+Adding structure (36), GTV-1
+Structure 25 has color 115\230\0
+Structure 26 has color 230\115\230
+Structure 27 has color 0\230\115
+Structure 28 has color 172\115\0
+Structure 29 has color 230\0\230
+Structure 30 has color 184\57\57
+Structure 31 has color 138\172\230
+Structure 32 has color 172\172\0
+Structure 33 has color 172\0\172
+Structure 34 has color 0\207\207
+Structure 35 has color 230\0\0
+Structure 36 has color 0\230\0
+Setting PIH from RDD
+PIH is:
+Origin = -249.5117 -475.5117 -754.0000
+Size = 512 512 147
+Spacing = 0.9766 0.9766 3.0000
+Direction = 1.0000 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000 0.0000 1.0000
+Rt_study_warp: Convert ss_img to cxt.
+Rt_study_warp: Prune empty structures.
+Rt_study_warp: Apply dicom_dir.
+Rt_study_warp: Set geometry from PIH.
+Rt_study_warp: Set rasterization geometry.
+rast_dim = 512 512 109
+rast_offset = -90.0345 -304.669 -655
+rast_spacing = 0.383455 0.383455 3
+Rt_study_warp: warp and save ss.
+Warp_and_save_ss: seg->rasterize
+Rasterizing...
+Converting...
+Finished rasterization.
+Warp_and_save_ss: save_ss_img
+save_ss_img: save_prefix
+Trying to write image to ./NrrdFolder/Spinal-Cord.nrrd
+Trying to write image to ./NrrdFolder/Neck-Right.nrrd
+Trying to write image to ./NrrdFolder/Neck-Left.nrrd
+Trying to write image to ./NrrdFolder/Submandibular-Gland-Right.nrrd
+Trying to write image to ./NrrdFolder/Submandibular-Gland-Left.nrrd
+Trying to write image to ./NrrdFolder/Parotid-Right.nrrd
+Trying to write image to ./NrrdFolder/Parotid-Left.nrrd
+Trying to write image to ./NrrdFolder/Oral-Cavity.nrrd
+Trying to write image to ./NrrdFolder/Medulla-Oblongata.nrrd
+Trying to write image to ./NrrdFolder/Brain.nrrd
+Trying to write image to ./NrrdFolder/GTV-2.nrrd
+Trying to write image to ./NrrdFolder/GTV-1.nrrd
+Finished!
+Subject: HN1004
+Datetime stamp : 16/03/2022 17:59:17
+Setting PIH from RDD
+PIH is:
+Origin = -249.5117 -475.5117 -754.0000
+Size = 512 512 147
+Spacing = 0.9766 0.9766 3.0000
+Direction = 1.0000 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000 0.0000 1.0000
+Rt_study_warp: Saving m_img (./NrrdFolder/ct_image.nrrd)
+Trying to write image to ./NrrdFolder/ct_image.nrrd
+Rt_study_warp: warp and save ss.
+Finished!
+Subject: HN1004
+Datetime stamp : 16/03/2022 17:59:17
+Loading RDD
+Loading RDD complete
+Found RTSTUCT, UID=1.3.6.1.4.1.40744.29.93349004447475329138539991688243353187
+Found DCM_ReferencedFrameOfReferenceSequence!
+Found DCM_RTReferencedStudySequence!
+Trying to load rt structure set.
+Adding structure (25), Spinal-Cord
+Adding structure (26), Neck-Right
+Adding structure (27), Neck-Left
+Adding structure (28), Submandibular-Gland-Right
+Adding structure (29), Submandibular-Gland-Left
+Adding structure (30), Parotid-Right
+Adding structure (31), Parotid-Left
+Adding structure (32), Oral-Cavity
+Adding structure (33), Medulla-Oblongata
+Adding structure (34), Brain
+Adding structure (35), GTV-2
+Adding structure (36), GTV-1
+Structure 25 has color 115\230\0
+Structure 26 has color 230\115\230
+Structure 27 has color 0\230\115
+Structure 28 has color 172\115\0
+Structure 29 has color 230\0\230
+Structure 30 has color 184\57\57
+Structure 31 has color 138\172\230
+Structure 32 has color 172\172\0
+Structure 33 has color 172\0\172
+Structure 34 has color 0\207\207
+Structure 35 has color 230\0\0
+Structure 36 has color 0\230\0
+Setting PIH from RDD
+PIH is:
+Origin = -249.5117 -475.5117 -754.0000
+Size = 512 512 147
+Spacing = 0.9766 0.9766 3.0000
+Direction = 1.0000 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000 0.0000 1.0000
+Rt_study_warp: Convert ss_img to cxt.
+Rt_study_warp: Prune empty structures.
+Rt_study_warp: Apply dicom_dir.
+Rt_study_warp: Set geometry from PIH.
+Rt_study_warp: Set rasterization geometry.
+rast_dim = 512 512 109
+rast_offset = -90.0345 -304.669 -655
+rast_spacing = 0.383455 0.383455 3
+Rt_study_warp: warp and save ss.
+Warp_and_save_ss: seg->rasterize
+Rasterizing...
+Converting...
+Finished rasterization.
+Warp_and_save_ss: save_ss_img
+save_ss_img: save_prefix
+Trying to write image to ./NrrdFolder/Spinal-Cord.nrrd
+Trying to write image to ./NrrdFolder/Neck-Right.nrrd
+Trying to write image to ./NrrdFolder/Neck-Left.nrrd
+Trying to write image to ./NrrdFolder/Submandibular-Gland-Right.nrrd
+Trying to write image to ./NrrdFolder/Submandibular-Gland-Left.nrrd
+Trying to write image to ./NrrdFolder/Parotid-Right.nrrd
+Trying to write image to ./NrrdFolder/Parotid-Left.nrrd
+Trying to write image to ./NrrdFolder/Oral-Cavity.nrrd
+Trying to write image to ./NrrdFolder/Medulla-Oblongata.nrrd
+Trying to write image to ./NrrdFolder/Brain.nrrd
+Trying to write image to ./NrrdFolder/GTV-2.nrrd
+Trying to write image to ./NrrdFolder/GTV-1.nrrd
+Finished!
+Subject: HN1004
+Datetime stamp : 19/04/2022 14:36:00
+Setting PIH from RDD
+PIH is:
+Origin = -249.5117 -475.5117 -754.0000
+Size = 512 512 147
+Spacing = 0.9766 0.9766 3.0000
+Direction = 1.0000 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000 0.0000 1.0000
+Rt_study_warp: Saving m_img (./NrrdFolder/ct_image.nrrd)
+Trying to write image to ./NrrdFolder/ct_image.nrrd
+Rt_study_warp: warp and save ss.
+Finished!
+Subject: HN1004
+Datetime stamp : 19/04/2022 14:36:00
+Loading RDD
+Loading RDD complete
+Found RTSTUCT, UID=1.3.6.1.4.1.40744.29.93349004447475329138539991688243353187
+Found DCM_ReferencedFrameOfReferenceSequence!
+Found DCM_RTReferencedStudySequence!
+Trying to load rt structure set.
+Adding structure (25), Spinal-Cord
+Adding structure (26), Neck-Right
+Adding structure (27), Neck-Left
+Adding structure (28), Submandibular-Gland-Right
+Adding structure (29), Submandibular-Gland-Left
+Adding structure (30), Parotid-Right
+Adding structure (31), Parotid-Left
+Adding structure (32), Oral-Cavity
+Adding structure (33), Medulla-Oblongata
+Adding structure (34), Brain
+Adding structure (35), GTV-2
+Adding structure (36), GTV-1
+Structure 25 has color 115\230\0
+Structure 26 has color 230\115\230
+Structure 27 has color 0\230\115
+Structure 28 has color 172\115\0
+Structure 29 has color 230\0\230
+Structure 30 has color 184\57\57
+Structure 31 has color 138\172\230
+Structure 32 has color 172\172\0
+Structure 33 has color 172\0\172
+Structure 34 has color 0\207\207
+Structure 35 has color 230\0\0
+Structure 36 has color 0\230\0
+Setting PIH from RDD
+PIH is:
+Origin = -249.5117 -475.5117 -754.0000
+Size = 512 512 147
+Spacing = 0.9766 0.9766 3.0000
+Direction = 1.0000 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000 0.0000 1.0000
+Rt_study_warp: Convert ss_img to cxt.
+Rt_study_warp: Prune empty structures.
+Rt_study_warp: Apply dicom_dir.
+Rt_study_warp: Set geometry from PIH.
+Rt_study_warp: Set rasterization geometry.
+rast_dim = 512 512 109
+rast_offset = -90.0345 -304.669 -655
+rast_spacing = 0.383455 0.383455 3
+Rt_study_warp: warp and save ss.
+Warp_and_save_ss: seg->rasterize
+Rasterizing...
+Converting...
+Finished rasterization.
+Warp_and_save_ss: save_ss_img
+save_ss_img: save_prefix
+Trying to write image to ./NrrdFolder/Spinal-Cord.nrrd
+Trying to write image to ./NrrdFolder/Neck-Right.nrrd
+Trying to write image to ./NrrdFolder/Neck-Left.nrrd
+Trying to write image to ./NrrdFolder/Submandibular-Gland-Right.nrrd
+Trying to write image to ./NrrdFolder/Submandibular-Gland-Left.nrrd
+Trying to write image to ./NrrdFolder/Parotid-Right.nrrd
+Trying to write image to ./NrrdFolder/Parotid-Left.nrrd
+Trying to write image to ./NrrdFolder/Oral-Cavity.nrrd
+Trying to write image to ./NrrdFolder/Medulla-Oblongata.nrrd
+Trying to write image to ./NrrdFolder/Brain.nrrd
+Trying to write image to ./NrrdFolder/GTV-2.nrrd
+Trying to write image to ./NrrdFolder/GTV-1.nrrd
+Finished!
+Subject: HN1004
+Datetime stamp : 19/04/2022 14:49:54
+Setting PIH from RDD
+PIH is:
+Origin = -249.5117 -475.5117 -754.0000
+Size = 512 512 147
+Spacing = 0.9766 0.9766 3.0000
+Direction = 1.0000 0.0000 0.0000 0.0000 1.0000 0.0000 0.0000 0.0000 1.0000
+Rt_study_warp: Saving m_img (./NrrdFolder/ct_image.nrrd)
+Trying to write image to ./NrrdFolder/ct_image.nrrd
+Rt_study_warp: warp and save ss.
+Finished!
+Subject: HN1004
+Datetime stamp : 19/04/2022 14:49:54
+Error: plastimatch failed to convert RTSTRUCT to [roiname].nrrd
+Subject: HN1004
+Datetime stamp : 12/01/2023 15:49:18
+Error: plastimatch failed to convert DICOM CT image to ct_image.nrrd
+Subject: HN1004
+Datetime stamp : 12/01/2023 15:49:18

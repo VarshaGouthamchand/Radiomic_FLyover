@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+
+  pyradiomics:
+    build:
+        context: ./pyradiomics-master
+        dockerfile: Dockerfile
+    ports:
+      - 8881:8888
+      - 8050:8050
+      - 5000:5000
+    volumes:
+      - ./pyradiomics-master/o-raw:/home/jovyan/work
+      #- ./pyradiomics-master/o-raw/data:/home/jovyan/work/data
+      - C:\\Users\\P70070487\\OneDrive - Maastro\\DataFAIRifier\\DICOM_data:/home/jovyan/work/data
+      - ./data_descriptor:/home/jovyan/work/user_module
+    environment:
+    - JUPYTER_TOKEN=tomcat-1
+    hostname: "data.local"
+    networks:
+      - proxynet
+
+  rdf-store:
+    build:
+      context: ./graphdb
+    ports: 
+      - "7200:7200"
+    volumes:
+      - ./graphdb/data:/opt/graphdb/home
+      # - ./graphdb/graphdb_template/data/repositories:/opt/graphdb/home/data/repositories
+    environment:
+      - GDB_HEAP_SIZE=4g
+      - GDB_MIN_MEM=2g
+      - GDB_MAX_MEM=4g
+    container_name: rdf-store
+    networks:
+      - proxynet
+
+networks:
+  proxynet:
+    name: custom_network
